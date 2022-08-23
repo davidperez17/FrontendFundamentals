@@ -1,0 +1,9 @@
+/*  * Hoja de estilos externa */
+p {
+  font-size: 20px;
+}
+
+span {
+  color: green;
+  background-color: black;
+}
