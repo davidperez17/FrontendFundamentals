@@ -1,0 +1,28 @@
+/* Las clases comienzan con un "punto"  */
+.article {
+  background-color: rgb(196, 196, 196);
+  padding: 20px 40px;
+}
+
+.title {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.parrafo {
+  color: rgb(77, 77, 77);
+  /* Por defecto el font size viene en 16px */
+  font-size: 14px;
+}
+
+.p-left {
+  text-align: left;
+}
+.p-center {
+  text-align: center;
+}
+
+.p-right {
+  text-align: right;
+}
