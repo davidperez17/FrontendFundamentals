@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -10,7 +12,7 @@ body {
 
 .card {
   width: 950px;
-  height: 465px;
+  height: 550px;
 
   margin: 150px auto 0;
   border: 1px solid;
@@ -22,15 +24,20 @@ body {
 
 .form {
   width: 650px;
-  height: 420px;
+  height: auto;
 
   padding: 10px 60px;
   float: left;
 }
 
-img {
-  width: 298px;
-  height: 100%;
+.title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+label {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
 }
 
 .submit {
@@ -38,4 +45,40 @@ img {
   height: 50px;
 
   margin-top: 10px;
+}
+
+.wd-100 {
+  width: 100%;
+  height: 30px;
+}
+
+.anio {
+  text-align: center;
+  height: 50px;
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+.date {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.mensaje {
+  resize: none;
+}
+.submit {
+  background-color: #6880ff;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+/* Contenedor 2 */
+.img {
+  width: 298px;
+  height: 100%;
 }

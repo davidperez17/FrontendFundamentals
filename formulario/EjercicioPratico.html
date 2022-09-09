@@ -12,40 +12,40 @@
 <body>
   <div class="card">
     <form class="form" action="https://formspree.io/f/mpznqjjg" method="POST">
-      <h1>Formulario de Registro</h1>
+      <h1 class="title">Formulario de Registro</h1>
       <!-- Nombre -->
       <label for="nombre">Nombre</label> <br>
-      <input type="text" id="nombre" name="nombre"> <br>
+      <input class="wd-100" type="text" id="nombre" name="nombre"> <br>
 
       <!-- Apellido  -->
       <label for="apellido">apellido</label> <br>
-      <input type="text" id="apellido" name="apellido"> <br>
+      <input class="wd-100" type="text" id="apellido" name="apellido"> <br>
 
       <!-- Correo Electronico -->
       <label for="email">Correo</label> <br>
-      <input type="email" id="email" name="email"> <br>
+      <input class="wd-100" type="email" id="email" name="email"> <br>
 
       <!-- Sexo -->
       <label for="sexo">Sexo:</label> <br>
       <input type="radio" id="masculino" name="sexo" value="Masculino">
-      <label for="masculino">masculino</label>
+      <label for="masculino">masculino</label> <br>
       <input type="radio" id="femenino" name="sexo" value="Femenino">
       <label for="femenino">femenino</label> <br>
 
       <!-- fecha -->
-      <fieldset>
+      <fieldset class="anio">
         <legend>Fecha de Nacimiento</legend>
-        <input type="date" name="date">
+        <input class="date" type="date" name="date">
       </fieldset>
 
       <!-- Mensaje -->
       <label for="mensaje">mensaje</label> <br>
-      <textarea name="mensaje" id="mensaje" cols="75" rows="8"></textarea> <br>
+      <textarea class="mensaje" name="mensaje" id="mensaje" cols="75" rows="8"></textarea> <br>
 
       <!-- Boton de Enviar -->
       <button class="submit" type="submit">Envía formulario</button>
     </form>
-    <img
+    <img class="img"
       src="https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
       alt="art">
   </div>
