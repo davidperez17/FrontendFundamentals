@@ -7,10 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
     .cuadrado {
       width: 150px;
       height: 150px;
-
       position: relative;
       top: 50px;
       bottom: 0;
@@ -19,7 +23,7 @@
 
       background-color: red;
 
-      z-index: 1;
+      z-index: 0;
     }
 
     .circulo {
@@ -30,7 +34,7 @@
 
       position: relative;
       background-color: blue;
-      z-index: 999999;
+      z-index: 2;
 
     }
 
