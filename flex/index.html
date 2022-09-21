@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      width: 100vw;
+      /* height: 100vh; */
+
+      border: 10px solid;
+
+      display: flex;
+      /* Direccion de los hijos */
+      flex-direction: row;
+      /* flex-direction: row-reverse; */
+
+      /* flex-direction: column; */
+      /* flex-direction: column-reverse; */
+
+      /* Default */
+      /* flex-wrap: nowrap; */
+      /* Wrap */
+      /* flex-wrap: wrap; */
+      /* reverse */
+      /* flex-wrap: wrap-reverse; */
+
+
+      /* Combinacion */
+      flex-flow: row-reverse wrap-reverse;
+    }
+
+    .box {
+      width: 150px;
+      height: 150px;
+    }
+
+    /* Son en bloque */
+    .red {
+      background-color: red;
+    }
+
+    .green {
+      background-color: green;
+    }
+
+    .blue {
+      background-color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="box red"></div>
+    <div class="box green"></div>
+    <div class="box blue"></div>
+  </div>
+</body>
+
+</html>
