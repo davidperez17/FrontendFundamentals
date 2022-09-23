@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      width: 80vw;
+      height: 30vh;
+      background-color: black;
+      margin: 0 auto;
+
+      display: flex;
+      /* eje X */
+      /* Aleja un poco */
+      /* justify-content: space-around; */
+      /* Aleja mucho */
+      justify-content: space-between;
+      /* Aleja todos iguales */
+      /* justify-content: space-evenly; */
+
+      /* Top */
+      align-items: flex-start;
+      /* Center */
+      align-items: center;
+      /* bottom */
+      /* align-items: flex-end; */
+      gap: 10px;
+    }
+
+    .box {
+      width: 200px;
+      height: 200px;
+
+      background-color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="box">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed possimus, accusamus debitis est expedita qui totam
+        suscipit necessitatibus distinctio cumque. Rerum, veritatis nostrum. Aperiam ex rerum doloremque laudantium
+        voluptates! Voluptates?</p>
+    </div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+</body>
+
+</html>

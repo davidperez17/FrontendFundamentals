@@ -20,12 +20,7 @@
       display: flex;
       gap: 20px;
 
-
-      /* Eje x Contenido */
-      justify-content: center;
-      /* Eje Y Contenido */
-      flex-wrap: wrap;
-      align-content: center;
+      align-items: center;
     }
 
     .box {
@@ -35,24 +30,27 @@
       display: flex;
       justify-content: center;
       align-items: center;
+
       color: #ffff;
-      /* No falta ponerlo porque es default */
-      /* order: 0; */
 
       font-size: 2rem;
       background-color: red;
     }
 
     .box-1 {
-      order: -1;
+      align-self: flex-start;
     }
 
-    .box-2 {
-      order: -3;
+    .box-4 {
+      align-self: flex-end;
+    }
+
+    .box-7 {
+      align-self: flex-end;
     }
 
     .box-9 {
-      order: -2;
+      align-self: flex-start;
     }
   </style>
 </head>
@@ -60,12 +58,12 @@
 <body>
   <div class="container">
     <div class="box box-1">1</div>
-    <div class="box box-2">2</div>
+    <div class="box">2</div>
     <div class="box">3</div>
-    <div class="box">4</div>
+    <div class="box box-4">4</div>
     <div class="box">5</div>
     <div class="box">6</div>
-    <div class="box">7</div>
+    <div class="box box-7">7</div>
     <div class="box">8</div>
     <div class="box box-9">9</div>
   </div>
