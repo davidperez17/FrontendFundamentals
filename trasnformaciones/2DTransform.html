@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      width: 100vw;
+      height: 100vh;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    div {
+      width: 120px;
+      height: 120px;
+
+
+      color: white;
+      background-color: green;
+
+      /* border-radius: 10px; */
+
+      cursor: pointer;
+      transition: 1s;
+    }
+
+    div:hover {
+      /* Eje X */
+      /* transform: translateX(30px) translateY(-40px); */
+      /* transform: translate(30px, 40px); */
+
+      /* transform: rotateZ(60deg); */
+      /* transform: rotateX(30deg) rotateY(40deg); */
+
+      /* transform: scale(1.2); */
+      /* transform: skew(0); */
+      /* transform: matrix(2, -.5, 1, 1, 0, 0); */
+
+      transform: rotate3d(1.2, 4, 1, 50deg);
+    }
+
+    /* button {
+      width: 100px;
+      height: 50px;
+
+      transition: 1s;
+    }
+
+    button:hover {
+      transform: scale(0.5);
+    } */
+  </style>
+</head>
+
+<body>
+  <div>
+  </div>
+
+  <!-- <button>Enviar</button> -->
+</body>
+
+</html>
