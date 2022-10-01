@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    .box {
+      width: 200px;
+      height: 200px;
+      background-color: rgb(0, 108, 108);
+      margin: auto;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      animation-name: timing;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+    }
+
+    @keyframes timing {
+      from {
+        width: 0%;
+      }
+
+      to {
+        width: 100%;
+      }
+    }
+
+    .normal {
+      animation-name: normal;
+      animation-duration: 2s;
+      animation-direction: normal;
+      animation-iteration-count: 2;
+    }
+
+    .alternate {
+      animation-name: normal;
+      animation-duration: 2s;
+      animation-direction: alternate;
+      animation-iteration-count: 2;
+
+    }
+
+    .reverse {
+      animation-name: normal;
+      animation-duration: 2s;
+      animation-direction: reverse;
+      animation-iteration-count: 2;
+
+    }
+
+    .alternate-reverse {
+      animation-name: normal;
+      animation-duration: 2s;
+      animation-direction: alternate-reverse;
+      animation-iteration-count: 2;
+
+    }
+
+
+
+    @keyframes normal {
+      from {
+        width: 0%;
+      }
+
+      to {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box normal">NORMAL</div>
+  <div class="box alternate">ALTERNATE</div>
+  <div class="box reverse">
+    <p>REVERSE</p>
+  </div>
+  <div class="box alternate-reverse">
+    <p>ALTERNATE-REVERSE</p>
+  </div>
+</body>
+
+</html>
