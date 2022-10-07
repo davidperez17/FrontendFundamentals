@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    /* ### Primary */
+
+    /* - Cyan: hsl(179, 62%, 43%)  */
+    /* - Bright Yellow: hsl(71, 73%, 54%) */
+    /* ### Neutral */
+
+    /* - Light Gray: hsl(204, 43%, 93%) 
+    - Grayish Blue: hsl(218, 22%, 67%) */
+
+    :root {
+      /* Primary */
+      --Cyan: hsl(179, 62%, 43%);
+      --BrightYellow: hsl(71, 73%, 54%);
+
+      /* Neutral */
+      --LightGray: hsl(204, 43%, 93%);
+      --GrayishBlue: hsl(218, 22%, 67%);
+
+      /* FontFamily */
+      --LetraBonita: 'Open Sans', sans-serif;
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+
+      margin: 10px 0;
+      background-color: var(--Cyan);
+    }
+
+    .box-2 {
+      width: 100px;
+      height: 100px;
+
+      margin: 10px 0;
+      background-color: var(--BrightYellow);
+    }
+
+    p {
+      color: var(--BrightYellow);
+      font-family: var(--LetraBonita);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+    </p>
+  </div>
+  <div class="box-2"></div>
+</body>
+
+</html>
