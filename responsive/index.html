@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="responsive.css" media="(min-width: 500px)">
+  <link rel="stylesheet" href="responsive2.css" media="(max-width:800px)">
+  <title>Document</title>
+  <style>
+    .box {
+
+      /* Muy estatica */
+      width: 500px;
+      /* min-width: 200px;
+      max-width: 400px; */
+
+      /* Clamp Sintaxis */
+      /* Valor minimo, Valor ideal(siempre debe ser relativo), Valor Maximo */
+      /* width: clamp(200px, 50%, 400px); */
+      height: 300px;
+
+      background-color: red;
+    }
+
+    /* Muy estatico */
+    /* @media (width:450px) {
+      .box {
+        width: 300px;
+        background-color: green;
+      }
+    } */
+
+    /* Despues de esta medida */
+    /* @media (min-width:320px) {
+      .box {
+        width: 600px;
+        background-color: blue;
+        border-radius: 50%;
+      }
+    } */
+
+    /* Antes de esta medida */
+    /* @media (max-width:767px) {
+      .box {
+        border-radius: 50%;
+      }
+    } */
+  </style>
+</head>
+
+<body>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+
+</body>
+
+</html>
